@@ -282,7 +282,7 @@ This is not as simple as array iteration, but it does work if you really need it
 
 ** Tuples and Generics
 
-There's no =Tuple= type available in Swift. If you wonder why that is, think about it: Every tuple is a totally different type, dependin on the types within it. So instead of defining a generic tuple requirement, you define the specific but generic incarnation of the tuple you intend to use:
+There's no =Tuple= type available in Swift. If you wonder why that is, think about it: Every tuple is a totally different type, depending on the types within it. So instead of defining a generic tuple requirement, you define the specific but generic incarnation of the tuple you intend to use:
 
 #+BEGIN_SRC Swift
 func wantsTuple<T1, T2>(tuple: (T1, T2)) -> T1 {
